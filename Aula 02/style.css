@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.vermelho{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    background-color: red;
+    justify-content: space-evenly;
+       
+}
+.verde{
+    width: 40%;
+    height: 90%;
+    background-color: rgb(27, 206, 27);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border-style: solid;
+    
+}
+.roxa{
+    width: 70%;
+    height: 45%;
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.textRoxo{
+    color: white;
+    font-size: 30px;
+}
+.textRoxo2{
+    color: white;
+    font-size: 30px;
+}
+
+.verde2{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+.roxa2{
+    width: 300px;
+    height: 300px;
+}
+.roxa3{
+    width: 50%;
+    height: 45%;
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+.roxa4{
+    width: 50%;
+    height: 45%;
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.roxa5{
+    width: 90%;
+    height: 45%;
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100px;
+}
+.verde3{
+    width: 20%;
+    height: 90%;
+    background-color: rgb(27, 206, 27);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border-style: solid;
+    
+}
+.verde4{
+    width: 40%;
+    height: 90%;
+    background-color: rgb(27, 206, 27);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border-style: solid;
+}
+.amarelo{
+    width: 130px;
+    height: 130px;
+    background-color: orange;
+
+}
